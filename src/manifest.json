@@ -1,0 +1,21 @@
+{
+    "manifest_version":3,
+    "version":"1.0",
+    "name":"Ceve",
+    "description": "Generative AI tool to create tailored resumes",
+    "action": {
+      "default_popup": "content.html",
+      "default_icon": "icon-96.png"
+    },
+    "background": {
+      "service_worker": "service-worker.js"
+    },
+    "permissions": [
+        "tabs",
+        "scripting"
+    ],
+    "host_permissions":["<all_urls>"],
+    "icons": {
+      "96": "icon-96.png"
+    }
+  }
