@@ -1,0 +1,19 @@
+{
+  "name": "ceve",
+  "version": "1.0.0",
+  "description": "Generative AI tool to create tailored resume",
+  "main": "content.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "latex.js": "^0.12.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}
